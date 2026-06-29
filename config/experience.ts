@@ -20,7 +20,7 @@ export const experiences: ExperienceInterface[] = [
     position: "Full-Stack Developer",
     company: "Independent Projects",
     location: "Remote",
-    startDate: new Date("2025-01-01"),
+    startDate: new Date("2020-01-01"),
     endDate: "Present",
     description: [
       "Designed and developed full-stack applications using React, Next.js, Node.js, and modern web technologies.",
@@ -60,7 +60,7 @@ export const experiences: ExperienceInterface[] = [
     position: "Web Developer Intern",
     company: "SoftCode Innovations",
     location: "Lagos, Nigeria",
-    startDate: new Date("2024-10-16"),
+    startDate: new Date("2022-10-16"),
     endDate: new Date("2025-07-28"),
     description: [
       "Learned Angular and contributed to a real-world application during my internship at Softcode Innovations, focusing primarily on frontend development and component-based architecture.",
