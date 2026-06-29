@@ -12,6 +12,7 @@ export const siteConfig = {
     linkedin: "www.linkedin.com/in/oladapo-ibiwoye-151825268",
     instagram: "https://www.instagram.com/oladapo.dev/",
     facebook: "https://web.facebook.com/profile.php?id=61582433618244",
+    templateRepo: "https://github.com/Dapo11/Oladapo-portfolio",
   },
   ogImage:
     "https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767384721/naman_portfolio_og_image.png",
