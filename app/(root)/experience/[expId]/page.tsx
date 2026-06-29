@@ -148,7 +148,7 @@ export default async function ExperienceDetailPage({
         </AnimatedSection>
 
         <AnimatedSection delay={0.2}>
-          <Card className="overflow-hidden rounded-lg border bg-background p-2 transition-all duration-300">
+          <Card className="overflow-hidden rounded-lg border bg-background mx-2 p-1 transition-all duration-300">
             <CardHeader className="pb-6">
               <div className="flex flex-col gap-4">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">

@@ -18,7 +18,7 @@ interface ProjectPageProps {
   }>;
 }
 
-const githubUsername = "namanbarkiya";
+const githubUsername = "Dapo11";
 
 export default async function Project({ params }: ProjectPageProps) {
   const { projectId } = await params;
@@ -28,7 +28,7 @@ export default async function Project({ params }: ProjectPageProps) {
   }
 
   return (
-    <article className="container relative max-w-3xl py-6 lg:py-10">
+    <article className="md:container relative max-w-3xl py-6 lg:py-10 mx-4">
       <Link
         href="/projects"
         className={cn(
@@ -73,14 +73,14 @@ export default async function Project({ params }: ProjectPageProps) {
           >
             <Image
               src={profileImg}
-              alt={"naman"}
+              alt={"oladapo"}
               width={42}
               height={42}
               className="rounded-full bg-background"
             />
 
             <div className="flex-1 text-left leading-tight">
-              <p className="font-medium">{"Naman Barkiya"}</p>
+              <p className="font-medium">{"Oladapo Ezekiel"}</p>
               <p className="text-[12px] text-muted-foreground">
                 @{siteConfig.username}
               </p>

@@ -51,6 +51,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
               </h3>
               {experience.companyUrl && (
                 <a
+                  title="Company website"
                   href={experience.companyUrl}
                   target="_blank"
                   rel="noopener noreferrer"

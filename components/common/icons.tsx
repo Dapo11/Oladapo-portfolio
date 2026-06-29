@@ -66,6 +66,7 @@ import {
   SiSocketdotio,
   SiTailwindcss,
   SiTypescript,
+  SiWordpress,
   SiX,
 } from "react-icons/si";
 
@@ -122,6 +123,7 @@ export const Icons = {
   nodejs: SiNodedotjs,
   react: SiReact,
   redux: SiRedux,
+  Wordpress: SiWordpress,
   socketio: SiSocketdotio,
   tailwindcss: SiTailwindcss,
   typescript: SiTypescript,

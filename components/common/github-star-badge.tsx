@@ -37,7 +37,7 @@ export function GitHubStarBadge({ className }: GitHubStarBadgeProps) {
 
   return (
     <Link
-      href={siteConfig.links.templateRepo}
+      href={siteConfig.links.github}
       target="_blank"
       rel="noreferrer"
       aria-label={`View template repo on GitHub${

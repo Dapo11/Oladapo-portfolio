@@ -1,8 +1,7 @@
 import { Metadata } from "next";
 
 import PageContainer from "@/components/common/page-container";
-import GithubRedirectCard from "@/components/contact/github-redirect-card";
-import { ContactForm } from "@/components/forms/contact-form";
+import { ContactInfo } from "@/components/contact/contact-info";
 import { pagesConfig } from "@/config/pages";
 
 export const metadata: Metadata = {
@@ -16,12 +15,10 @@ export default function ContactPage() {
       title={pagesConfig.contact.title}
       description={pagesConfig.contact.description}
     >
-      <div className="flex flex-col lg:flex-row">
+      {/* Added gap-8 to create spacing between the two columns */}
+      <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
         <div className="flex-1">
-          <ContactForm />
-        </div>
-        <div className="flex-1 flex justify-end">
-          <GithubRedirectCard />
+          <ContactInfo />
         </div>
       </div>
     </PageContainer>

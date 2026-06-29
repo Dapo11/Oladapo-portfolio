@@ -86,11 +86,11 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.css3,
   },
   {
-    name: "React Native",
+    name: "WordPress",
     description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
+      "Built and customized responsive websites using WordPress, focusing on user experience, performance, and maintainable site structures.",
     rating: 4,
-    icon: Icons.react,
+    icon: Icons.Wordpress,
   },
   {
     name: "Angular",
